@@ -6,6 +6,8 @@ This project implements a complete end-to-end data engineering pipeline for Airb
 
 The pipeline processes Airbnb listings, bookings, and hosts data through a medallion architecture (Bronze → Silver → Gold), implementing incremental loading, slowly changing dimensions (SCD Type 2), and creating analytics-ready datasets.
 
+<img width="1653" height="834" alt="Screenshot 2026-02-16 185649" src="https://github.com/user-attachments/assets/3b01248b-5b7a-46b0-8bec-643f7fe81fe9" />
+
 ## 🏗️ Architecture
 
 ### Data Flow
@@ -28,6 +30,7 @@ Source Data (CSV) → AWS S3 → Snowflake (Staging) → Bronze Layer → Silver
   - Custom macros
   - Jinja templating
   - Testing and documentation
+
 
 ## 📊 Data Model
 
@@ -346,3 +349,4 @@ dbt automatically tracks data lineage, showing:
 - [ ] Add more comprehensive testing suite
 
 ### 👤 Author - Vignesh Raveendran
+
