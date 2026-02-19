@@ -348,6 +348,12 @@ dbt automatically tracks data lineage, showing:
 - [ ] Implement data masking for PII
 - [ ] Add more comprehensive testing suite
 
-### 👤 Author - Vignesh Raveendran
+## ✍️ Author
+
+**[Vignesh_Raveendran]**  
+*Data Engineer / Data Analyst*  
+
+[LinkedIn](https://www.linkedin.com/in/yourprofile) | [Portfolio](https://yourportfolio.com)
+
 
 
